@@ -8,7 +8,7 @@ var getPlayerName = function() {
   var name = "";
 
   while (name === "" || name === null) {
-    window.prompt("What is your robot's name?");
+    name = prompt("What is your robot's name?");
   };
 
   console.log("Your robot's name is " + name);
